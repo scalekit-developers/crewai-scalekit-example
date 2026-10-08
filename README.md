@@ -10,6 +10,8 @@ A multi-agent CrewAI crew that triages a Gmail inbox using Scalekit-authenticate
 
 All Gmail access is authenticated through [Scalekit AgentKit](https://docs.scalekit.com/agentkit/overview/). Scalekit handles OAuth token storage, refresh, and tool execution via MCP — your code never touches raw tokens.
 
+Scalekit provides auth and actions on behalf of users, with 500+ connectors and 20,000+ tools.
+
 ## Prerequisites
 
 - Python 3.10+
